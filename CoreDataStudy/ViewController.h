@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+// Add this property for core data. this property was setted by AppDelegate
+@property (nonatomic, weak) NSManagedObjectContext* context;
 
 @end
 
